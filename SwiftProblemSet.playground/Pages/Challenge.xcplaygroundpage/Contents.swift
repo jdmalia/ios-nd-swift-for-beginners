@@ -18,7 +18,7 @@ for string in array {
         sum += intToAdd
     }
 }
-// Print the total of all the ints in the array of strings.
+// Print the total of all the ints in the array of strings
 print(sum)
 
 //: Hint: You may need to look up [Int initializers](http://stackoverflow.com/questions/30739460/toint-removed-in-swift-2) .
