@@ -24,7 +24,15 @@ var canFinishBike: Bool = true
 var canFinishRun: Bool = true
 
 func checkTrainingStatus(name: String, swim: Bool, bike: Bool, run: Bool) {
-    //TODO: Add your if, else-if statement here!
+    if swim && bike && run {
+        print("\(name) is ready!")
+    } else if !swim {
+        print("\(name) needs to focus on swimming.")
+    } else if !bike {
+        print("\(name) needs to focus on biking.")
+    }else if !run {
+        print("\(name) needs to focus on running.")
+    }
 }
 
 checkTrainingStatus(name: name, swim: canFinishSwim, bike: canFinishBike, run: canFinishRun)
