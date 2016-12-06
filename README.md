@@ -9,4 +9,3 @@ This repository contains starter code for the Swift for Beginners course and pro
 ## Maintainers
 
 @GabrielleM
-# ios-nd-swift-for-beginners
