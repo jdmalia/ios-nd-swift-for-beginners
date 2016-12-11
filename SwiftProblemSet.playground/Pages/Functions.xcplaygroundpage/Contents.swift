@@ -82,5 +82,5 @@ func funWithWords(_ string: String) -> String {
  funWithWords("pIG") // "pig"
  funWithWords("oink") // "OINK"
  funWithWords("udacity") // "UDACITY"
- funWithWords("") // ""
+ funWithWords("") // "".
 //: [Next](@next)

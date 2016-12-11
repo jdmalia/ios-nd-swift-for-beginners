@@ -35,5 +35,5 @@ func checkTrainingStatus(name: String, swim: Bool, bike: Bool, run: Bool) {
     }
 }
 
-checkTrainingStatus(name: name, swim: canFinishSwim, bike: canFinishBike, run: canFinishRun)
+checkTrainingStatus(name: name, swim: canFinishSwim, bike: canFinishBike, run: canFinishRun) 
 //: [Next](@next)
