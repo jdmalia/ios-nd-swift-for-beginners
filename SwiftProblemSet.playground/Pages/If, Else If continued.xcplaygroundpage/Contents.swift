@@ -24,14 +24,23 @@ var canFinishBike: Bool = true
 var canFinishRun: Bool = true
 
 func checkTrainingStatus(name: String, swim: Bool, bike: Bool, run: Bool) {
-    if swim && bike && run {
-        print("\(name) is ready!")
-    } else if !swim {
+    var ready = true
+    
+    if !swim {
+        ready = false
         print("\(name) needs to focus on swimming.")
-    } else if !bike {
+    }
+    if !bike {
+        ready = false
         print("\(name) needs to focus on biking.")
-    }else if !run {
+    }
+    if !run {
+        ready = false
         print("\(name) needs to focus on running.")
+    }
+    
+    if ready {
+        print("\(name) is ready!")
     }
 }
 
